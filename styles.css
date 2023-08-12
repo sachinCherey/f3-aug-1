@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242A32;
+}
+
+#top{
+    color: #0296E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    flex-direction: column;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    height: 40px;
+}
+
+.p1{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: #1c2633;
+    border: none;
+}
+
+.p1>img{
+    height: 40px;
+    padding: 10px;
+    background-color: #1c2633;
+}
+
+.card>img{
+    width:180px;
+    height:180px;
+}
+
+.item1{
+
+        top: 20px;
+        position: relative;
+        display: grid;
+        gap: 20px;
+        width: 70%;
+        align-self: center;
+        grid-template-columns: repeat(auto-fit,minmax(175px, 1fr));
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card>p,.card>a{
+    color:white;
+}
+
+
+#api,#search{
+    color: white;
+}
+
+
+
+
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#sp{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
